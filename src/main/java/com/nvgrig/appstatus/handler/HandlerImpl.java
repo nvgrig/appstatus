@@ -15,7 +15,7 @@ import java.util.concurrent.atomic.AtomicInteger;
 @Slf4j
 public class HandlerImpl implements Handler {
 
-    private static long TIME_OUT_SECONDS = 15;
+    private static final long TIME_OUT_SECONDS = 15;
     private AtomicInteger retriesCount = new AtomicInteger(0);
     private String currentId = null;
     private Service service;
