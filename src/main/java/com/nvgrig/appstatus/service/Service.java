@@ -1,11 +1,8 @@
 package com.nvgrig.appstatus.service;
 
-import com.nvgrig.appstatus.model.DataModel;
-import com.nvgrig.appstatus.model.ProcessedData;
+import com.nvgrig.appstatus.response.Response;
 
 public interface Service {
 
-    DataModel getData();
-
-    ProcessedData processData(DataModel dataModel);
+    Response getStatus(String id);
 }
