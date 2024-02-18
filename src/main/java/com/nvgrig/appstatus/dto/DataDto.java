@@ -1,4 +1,4 @@
 package com.nvgrig.appstatus.dto;
 
-public class DataModelDto {
+public class DataDto {
 }
